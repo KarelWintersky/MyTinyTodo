@@ -13,7 +13,7 @@
 class Lang extends DefaultLang
 {
 
-	    var $js = array
+    var $js = array
     (
         'confirmDelete' => "Sei sicuro di voler cancellare il task?",
         'actionNoteSave' => "salva",
@@ -27,7 +27,7 @@ class Lang extends DefaultLang
         'deleteList' => "Questo eliminerà la lista corrente e tutti i task inclusi.\\nSei sicuro?",
         'settingsSaved' => "Impostazioni salvate. Ricaricando...",
     );
-	    var $inc = array
+    var $inc = array
     (
         'My Tiny Todolist' => "Tasks",
         'htab_newtask' => "Nuovo Task",
@@ -60,10 +60,10 @@ class Lang extends DefaultLang
         'due' => "Scadenza",
         'daysago' => "%d giorni fa",
         'indays' => "entro %d giorni",
-        'months_short' => array("Gen","Feb","Mar","Apr","Mag","Giu","Lug","Ago","Set","Ott","Nov","Dic"),
-        'months_long' => array("Gennaio","Febbraio","Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"),
-        'days_min' => array("Do","Lu","Ma","Me","Gi","Ve","Sa"),
-        'days_long' => array("Domenica","Lunedì","martedì","Mercoledì","Giovedì","Venerdì","Sabato"),
+        'months_short' => array("Gen", "Feb", "Mar", "Apr", "Mag", "Giu", "Lug", "Ago", "Set", "Ott", "Nov", "Dic"),
+        'months_long' => array("Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"),
+        'days_min' => array("Do", "Lu", "Ma", "Me", "Gi", "Ve", "Sa"),
+        'days_long' => array("Domenica", "Lunedì", "martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"),
         'today' => "oggi",
         'yesterday' => "ieri",
         'tomorrow' => "domani",
@@ -89,12 +89,12 @@ class Lang extends DefaultLang
         'a_settings' => "Impostazioni",
         'rss_feed' => "RSS Feed",
         'feed_title' => "%s",
-				'feed_description' => "Nuovi tasks in %s",
-				'username' => "utente",
-				'set_user' => "Nome utente",
-				'signature' => "firma",
-				'set_default_list' => "Predefinito Todo List",
-				'set_default_list_descr' => "(ad esempio, utilizzato per le chiamate API)",
+        'feed_description' => "Nuovi tasks in %s",
+        'username' => "utente",
+        'set_user' => "Nome utente",
+        'signature' => "firma",
+        'set_default_list' => "Predefinito Todo List",
+        'set_default_list_descr' => "(ad esempio, utilizzato per le chiamate API)",
 
         /* Settings */
         'set_header' => "Impostazioni",
@@ -126,5 +126,3 @@ class Lang extends DefaultLang
         'set_cancel' => "Annulla",
     );
 }
-
-?>
